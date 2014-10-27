@@ -1,0 +1,13 @@
+You = raw_input('YourStylishness')
+Date = raw_input ('DatesStylishness')
+
+y= int(You)
+d= int(Date)
+
+if (y >=8) or Date (d >=8):
+        print'Yes'
+elif (y <=2) or Date (d <=2):
+    print 'No'
+else:
+    print 'Maybe'
+

@@ -1,0 +1,8 @@
+Enjoy = raw_input ('Do you enjoy using python?')
+if Enjoy == 'Yes' or Enjoy == 'yes':
+    print 'That is great'
+if Enjoy == 'No'or Enjoy == 'no':
+    print 'That is dissappointing'
+else:
+    print 'Please enter either yes or no as an answer'
+    
