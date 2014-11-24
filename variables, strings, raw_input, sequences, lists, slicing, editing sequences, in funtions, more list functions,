@@ -1,0 +1,244 @@
+Python 2.7.5 (default, May 15 2013, 22:43:36) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> "hey now"
+'hey now'
+>>> "let's go fishing"
+"let's go fishing"
+>>> a = emmanuel
+
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    a = emmanuel
+NameError: name 'emmanuel' is not defined
+>>> b = idowu
+
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    b = idowu
+NameError: name 'idowu' is not defined
+>>> a+b
+
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    a+b
+NameError: name 'a' is not defined
+>>> a="emmanuel"
+>>> b="idowu"
+>>> a+b
+'emmanuelidowu'
+>>> a = "emmanuel "
+>>> a+b
+'emmanuel idowu'
+>>> 
+>>> 
+
+
+>>> 
+
+>>> 
+
+>>> 
+
+
+>>> 
+
+>>> 
+
+
+>>> 
+
+>>> 
+
+
+>>> 
+
+>>> 
+>>> 
+>>> 
+
+
+>>> 
+
+>>> 
+
+>>> 
+
+>>> 
+
+
+>>> 
+
+>>> 
+
+
+>>> 
+
+>>> 
+
+>>> 
+
+>>> 
+>>> print "hey there"
+hey there
+>>> number = 18
+>>> number +10
+28
+>>> print "Emmanuel is" + number
+
+Traceback (most recent call last):
+  File "<pyshell#36>", line 1, in <module>
+    print "Emmanuel is" + number
+TypeError: cannot concatenate 'str' and 'int' objects
+>>> num = str(18)
+>>> print "Emmanuel Idowu is " + num
+Emmanuel Idowu is 18
+>>>  newnum =32
+ 
+  File "<pyshell#39>", line 1
+    newnum =32
+   ^
+IndentationError: unexpected indent
+>>> newnum = 32
+>>> print "My dad is" + `newnum`
+My dad is32
+>>> ================================ RESTART ================================
+>>> 
+Please enter your name Emmabnueerhsi0#
+ Emmabnueerhsi0#
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "C:/Users/idowue2/Desktop/lists", line 2, in <module>
+    devices[1]
+IndexError: list index out of range
+>>> 1
+1
+>>> devices[1]
+
+Traceback (most recent call last):
+  File "<pyshell#43>", line 1, in <module>
+    devices[1]
+IndexError: list index out of range
+>>> devices = ['computer''laptop''tablet']
+devices[1]
+>>> devices[1]
+
+Traceback (most recent call last):
+  File "<pyshell#45>", line 1, in <module>
+    devices[1]
+IndexError: list index out of range
+>>> devices(1)
+
+Traceback (most recent call last):
+  File "<pyshell#46>", line 1, in <module>
+    devices(1)
+TypeError: 'list' object is not callable
+>>> ================================ RESTART ================================
+>>> 
+>>> devices[1]
+'laptop'
+>>> devices[0]
+'computer'
+>>> ================================ RESTART ================================
+>>> 
+>>> device[-1]
+
+Traceback (most recent call last):
+  File "<pyshell#49>", line 1, in <module>
+    device[-1]
+NameError: name 'device' is not defined
+>>> devices[-1]
+'tablet'
+>>> example =[0,1,2,3,4,5,6,7,8,9]
+>>> example [4:8]
+[4, 5, 6, 7]
+>>> example [4:10]
+[4, 5, 6, 7, 8, 9]
+>>> example [4:]
+[4, 5, 6, 7, 8, 9]
+>>> example[-5:-1]
+[5, 6, 7, 8]
+>>> example [-5:]
+[5, 6, 7, 8, 9]
+>>> example[]
+SyntaxError: invalid syntax
+>>> example[:]
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> example[0::3]
+[0, 3, 6, 9]
+>>> [0, 3, 6, 9]
+[0, 3, 6, 9]
+>>> example[::-2]
+[9, 7, 5, 3, 1]
+>>> example[::-1]
+[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+>>> [7,8,9]+'emmanuel'
+
+Traceback (most recent call last):
+  File "<pyshell#63>", line 1, in <module>
+    [7,8,9]+'emmanuel'
+TypeError: can only concatenate list (not "str") to list
+>>> `[7,8,9]`+'emmanuel'
+'[7, 8, 9]emmanuel'
+>>> [`7,8,9`]+'emmanuel'
+
+Traceback (most recent call last):
+  File "<pyshell#65>", line 1, in <module>
+    [`7,8,9`]+'emmanuel'
+TypeError: can only concatenate list (not "str") to list
+>>> 'emmanuel'*10
+'emmanuelemmanuelemmanuelemmanuelemmanuelemmanuelemmanuelemmanuelemmanuelemmanuel'
+>>> [21]*10
+[21, 21, 21, 21, 21, 21, 21, 21, 21, 21]
+>>> name='chicken'
+>>> j in name
+
+Traceback (most recent call last):
+  File "<pyshell#69>", line 1, in <module>
+    j in name
+NameError: name 'j' is not defined
+>>> 'j' in name
+False
+>>> "chick" in name
+True
+>>> drinks = ["lucozade","water","juice","milkshake"]
+>>> "water" in drinks
+True
+>>> "KA" in drinks
+False
+>>> "luco" in drinks
+False
+>>>                    numbe
+                   
+  File "<pyshell#76>", line 1
+    numbe
+   ^
+IndentationError: unexpected indent
+>>> numbers = [1,4,56,8,32,67,345]
+>>> len(numbers)
+7
+>>> max(numbers)
+345
+>>> min(numbers)
+1
+>>> list('Emmanuel')
+['E', 'm', 'm', 'a', 'n', 'u', 'e', 'l']
+>>> numbers
+[1, 4, 56, 8, 32, 67, 345]
+>>> drinks]#
+SyntaxError: invalid syntax
+>>> drinks
+['lucozade', 'water', 'juice', 'milkshake']
+#
+>>> name
+'chicken'
+>>> numbers
+[1, 4, 56, 8, 32, 67, 345]
+>>> numbers[2]=1001
+>>> numbers
+[1, 4, 1001, 8, 32, 67, 345]
+>>> del numbers[4]
+>>> numbers
+[1, 4, 1001, 8, 67, 345]
+>>> 

@@ -1,0 +1,2 @@
+devices = ['computer','laptop','tablet']
+devices[-1]
