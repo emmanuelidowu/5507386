@@ -1,0 +1,9 @@
+MyDictionary = {'John' : '23 random street birmingham','Lisa': '45 callice court'}
+
+print MyDictionary ['Lisa']
+
+
+MyDictionary ['James']= '54 coventry drive'
+
+
+print MyDictionary ['James']

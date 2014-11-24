@@ -1,0 +1,7 @@
+FirstSet = [23,31,46,37,8,92,73,12,1,20]
+SecondSet = [1,2,3,7,21,8,56,6554,1112,9]
+
+
+import random
+print random.randint (1,100,4)
+
