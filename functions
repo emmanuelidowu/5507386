@@ -1,0 +1,22 @@
+def FirstFunction():
+    print "Emmanuel"
+
+FirstFunction()
+
+
+def PrintName(name):
+    print name
+
+
+PrintName("Jones")
+
+PrintName("Fred")
+
+
+def Whatithinkof(name,opinion):
+    print "I "+ opinion+ " "+ name
+
+
+Whatithinkof ("Joe","Hate")
+
+Whatithinkof("Helen","Dislike")
